@@ -1,0 +1,1091 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}  
+::after, 
+::before { 
+    box-sizing: border-box;
+}  
+input { 
+    outline: none;
+} 
+a { 
+    
+    text-decoration: none; 
+    
+}   
+
+ 
+.wrapper { 
+     
+    margin: 0 auto;
+}
+.container   {  
+    width: 100%; 
+    max-width: 1120px; 
+    margin: 0 auto ; 
+    
+}  
+.navbar__item { 
+    display: flex;
+}
+.navbar {  
+    position: relative;
+    background-color: #daac00;
+    height:121px ; 
+}  
+
+.burger {   
+    display: none; 
+
+}   
+
+
+.navbar__logo  {  
+    position: relative;
+    font-size: 35px;  
+    padding-top:45px ;    
+    max-width: 235px;
+}  
+.navbar__logo a { 
+    color:white; 
+transition: all 0.2s ease;
+}  
+.navbar__logo a:hover { 
+    color:#343434; 
+    transition: all 0.2s ease-in;
+}
+.navbar__home { 
+    max-width: 503px; 
+    transition: all 0.5s ease;
+}
+.navbar__list a { 
+    color: #ffffff;
+font-weight: 500;
+font-family: "Poppins"; 
+transition: all 0.2s ease;
+} 
+
+.navbar__list  {  
+    margin-left: 50px;  
+    padding-top: 50px;  
+    position: relative;
+    display: inline-block; 
+    list-style: none;  
+    font-size: 29px;
+
+}   
+.navbar__list a:hover { 
+    color: #343434; 
+    transition: all 0.2s ease-in;
+}
+.navbar__list:not(:first-child) { 
+    margin-left: 30px;
+}   
+
+.navbar__search {   
+    margin-left: auto;
+    padding-top: 40px; 
+    max-width: 300px;
+}   
+
+.search-bar::placeholder { 
+    font-size: 20px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+
+}
+.search-bar { 
+    padding: 15px 80px 15px 20px; 
+    background-color:#fcc302 ; 
+    border:none ; 
+    border-radius: 5px ; 
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74,74,74,0.1)); 
+    transition: all 0.3s ease-in;
+} 
+.search-bar:hover {  
+    transition: all 0.5s ease;
+    transform: translate(3px,3px);
+} 
+.search-bar:focus { 
+    background-color: #ffffff;
+}  
+.header {  
+    position: relative;
+    height: 805px;
+    background-color: #fcc302; 
+
+}   
+
+.header__img { 
+    padding: 150px 0 0 100px;
+}
+.header__img img { 
+    max-width: 440px;  
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74,74,74,0.1));   
+}    
+.header__item { 
+    display: flex;
+}
+.header___text {    
+    margin-top: 155px;
+    position: relative;
+    max-width: 620px;
+}
+.header__title  {   
+    
+    max-width: 650px;
+    font-size: 67px;
+letter-spacing: 1px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+} 
+.header__subtitle {   
+    padding-top: 50px;
+    max-width: 650px;
+    font-size: 29px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+}  
+.header__button { 
+    padding-top: 30px; 
+    max-width: 400px; 
+    display: flex; 
+    justify-content: space-between; 
+    
+}
+.contact-button, 
+.service-button {   
+    padding: 25px 30px; 
+    border-radius: 15px;  
+    border: 3px solid white;
+    outline: none;
+    font-size: 21px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins"; 
+background-color: #fcc302;  
+
+} 
+.contact-button { 
+    transition: all 0.2s ease-in;
+} 
+.service-button { 
+    transition: all 0.2s ease-in;
+}
+.service-button:hover { 
+    transform:translate( 5px,5px);
+    background-color: #00bec9; 
+    transition: all 0.3s ease; 
+}
+.contact-button:hover { 
+    transform:translate( 5px,5px);
+    background-color: #00bec9; 
+     transition: all 0.3s ease; 
+} 
+ 
+.veterinar{  
+    position: relative;
+    height: 792px;
+}  
+.veterinar__item { 
+    display: flex; 
+    justify-content: space-between;
+}
+.veterinar__text{  
+    position: relative;
+    padding-top:210px ; 
+    max-width: 560px;
+}
+.veterinar__title { 
+    font-size: 50px;
+color: #313243;
+font-weight: 600;
+font-family: "Poppins";
+} 
+.veterinar__subtitle {  
+    padding: 55px 0 55px 0;
+    font-size: 29px;
+letter-spacing: 0px;
+color: #313243;
+font-weight: 400;
+font-family: "Poppins";
+}
+.veterinar__button-service { 
+    padding: 25px 30px; 
+    border-radius: 15px;  
+    border: 3px solid white;
+    outline: none;
+    font-size: 21px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins"; 
+background-color: #fcc302;  
+transition: all 0.3s ease;
+}  
+.veterinar__button-service:hover { 
+    transform:translate( 5px,5px);
+    background-color: #00bec9; 
+     transition: all 0.3s ease; 
+}
+.veterinar__block {  
+    position: absolute;
+    max-width: 1px;
+height: 56px; 
+padding: 106px 130px;
+background-color: #fcc302; 
+margin: 450px 0 0 580px; 
+z-index: 1;
+} 
+.veterinar__img { 
+    padding-top: 140px; 
+    z-index: 2; 
+    
+} 
+/* .veterinar__img-block {     
+    max-width: 508px;
+    z-index: 3;
+    margin: 140px 0 0px 612px;
+    position: absolute;
+
+    background-color: rgba(218,172,0,0.5686274509803921) ;
+}  */
+.care {  
+    position: relative;
+    height: 1030px; 
+    background-color:#fcc302;
+} 
+.care__item {  
+    padding-top: 80px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    align-content: space-between;
+}  
+.care__text { 
+    padding-top:100px ;
+}
+.care__title { 
+    font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+} 
+.care__subtitle {  
+    padding-top:45px ;
+    font-size: 33px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+} 
+.care__row-title {  
+    padding-top:50px ;
+    font-size: 38px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+text-align: center;
+} 
+.care__row-subtitle {  
+    padding-top: 20px;
+    font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+} 
+
+.lover { 
+    height: 800px;
+} 
+.lover__item{ 
+    display: flex; 
+    justify-content: space-between;
+}   
+.lover__block { 
+    position: absolute;
+    max-width: 52px;
+height: 56px; 
+padding: 106px 130px;
+background-color: #fcc302; 
+margin: 450px 0 0 280px; 
+z-index: 1;
+}
+.lover__block-img {  
+    margin-top: 150px;
+    max-width: 509px;
+    z-index: 3;
+    position: absolute;
+    padding: 240px 253px; 
+    background-color: rgba(218,172,0,0.5686274509803921) ;
+}
+.lover__img {  
+    position: relative;
+    padding-top: 150px; 
+    z-index: 2;
+}  
+.lover__text{  
+     max-width: 575px; 
+    padding-top: 220px;
+}
+.lover__title { 
+    font-size: 50px;
+color: #313243;
+font-weight: 600;
+font-family: "Poppins";
+text-align: right;
+} 
+.lover__subtitle {  
+    padding-top: 52px;
+    font-size: 29px;
+letter-spacing: 0px;
+color: #313243;
+font-weight: 400;
+font-family: "Poppins";
+text-align: right;
+}  
+.lover__button  {  
+     padding-top: 50px;
+    
+    float: right;
+}
+.button-lover {   
+    padding: 25px 30px; 
+    border-radius: 15px;  
+    border: 3px solid white;
+    outline: none;
+    font-size: 21px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins"; 
+background-color: #fcc302;  
+transition: all 0.3s ease;
+}   
+.button-lover:hover { 
+    transform:translate( 5px,5px);
+    background-color: #00bec9; 
+     transition: all 0.3s ease; 
+} 
+
+.price { 
+    height: 1090px; 
+    background-color:#fcc302;
+}  
+.price__title {  
+    padding-top: 105px;
+    font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+} 
+.price__subtitle {  
+    padding: 45px;
+    font-size: 33px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+}
+.price__item    {  
+    padding-top:    100px ;
+    display: flex; 
+    justify-content: space-between;
+}  
+.price__button button { 
+    margin: 0% 20% 0 25%;
+}
+.price__button a { 
+    color:white;
+} 
+
+
+.button-price {   
+    padding: 15px 45px; 
+    border-radius: 50px;   
+    border: 1px solid #00bec9;
+    font-size: 21px;
+letter-spacing: 0px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins"; 
+background-color: #00bec9;   
+transition: all 0.3s ease;  
+}  
+.price__dog { 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 35px;
+}
+.last-price, 
+.stock-price { 
+    font-size: 33px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+} 
+.last-price 
+{  
+    padding: 0 35px 0 0 ;
+    text-decoration: line-through; 
+    
+}  
+
+.last-price::before,  
+.last-price::after{  
+    content: "\00a0\00a0";
+}
+ 
+.team { 
+    height: 1075px;
+} 
+.team__item {  
+    padding-top: 100px;
+    display: flex; 
+    justify-content: space-between; 
+} 
+.team__title {  
+    padding-top: 150px;
+    font-size: 75px;
+color: #313243;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+} 
+.team__subtitle {  
+    padding-top: 50px;
+    font-size: 33px;
+color: #313243;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+} 
+ 
+.team__social-network { 
+    padding-top: 30px;
+}
+.social-network__img{   
+    display: inline-block;
+    text-align: center; 
+    margin-left: 15px;
+} 
+.social-network__img:first-child { 
+    margin-left: 88px;
+}
+.social-network__img img  
+{ 
+       
+    text-align: center;
+    border-radius:10px;
+width: 30px; 
+background-color:#fcc302;
+} 
+.team__initials {  
+    padding-top: 40px;
+    font-size: 29px;
+color: #313243;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+} 
+.team__positions {  
+    padding-top: 18px;
+    font-size: 25px;
+color: #313243;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center; 
+text-transform: uppercase;
+}  
+.about { 
+    height: 400px; 
+    background-color:#fcc302;
+}   
+.about__title { 
+    padding-top: 20px;
+    font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Poppins";
+text-align: center;
+}
+.about__img {   
+    padding-top :   65px ;
+   display: inline-block;
+} 
+/* .about__img:not(:first-child) 
+{ 
+    margin-left: 260px;
+} */
+.about__img img { 
+    max-width: 190px; 
+    
+}  
+
+.about__social{   
+    margin: 0 auto;
+    max-width: 100%;
+    display:flex; 
+    justify-content: space-between; 
+}
+ 
+.posts { 
+    height: 1200px;
+}
+ .posts__title {  
+     padding-top: 140px;
+    font-size: 75px;
+    color: #313243;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+ } 
+ .posts__subtitle { 
+     padding-top: 45px; 
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+ }  
+
+ .posts__item {   
+    align-content: center;
+     padding-top: 100px;
+     display: flex; 
+    justify-content:space-between;
+ } 
+ .posts__row-title {  
+    
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+    font-family: "Poppins";
+ } 
+ .posts__row-subtitle{  
+     padding-top: 25px;
+    font-size: 17px;
+color: #313243;
+font-weight: 400;
+font-family: "Poppins";
+ }  
+ .posts__row-more a { 
+     color:#00bec9;
+ }
+ .posts__row-more {  
+     padding-top:  25px;
+    font-size: 21px;
+color: #00bec9;
+font-weight: 500;
+font-family: "Poppins";
+ } 
+ .posts__row-date {  
+     padding-top: 15px;
+    font-size: 17px;
+color: #00bec9;
+font-weight: 400;
+font-family: "Poppins";
+ } 
+ .posts__text {    
+    margin-left: 7px;
+     padding: 30px;
+     max-width:345px;
+     border-bottom: 2px solid #d6d6d6; 
+     border-left: 2px solid #d6d6d6; 
+     border-right: 2px solid #d6d6d6;
+ } 
+.footer { 
+    height: 100px ;
+    background-color :#343434 ;
+}  
+.footer__item { 
+    display:flex; 
+    justify-content: space-between;
+}  
+.footer__creator, 
+.footer__title { 
+    padding-top: 52px; 
+font-size: 22px;
+line-height: 8px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins"; 
+} 
+
+@media screen and (max-width: 1400px) { 
+    .container { 
+    width: 1340px;
+    }
+}
+@media screen and (max-width:1200px) { 
+    .container { 
+        width: 1140px;
+    }
+} 
+@media screen and (max-width:1199px) { 
+    .container { 
+        width: 960px;
+    }    
+    .navbar__list { 
+        font-size: 32px; 
+        margin-left: 15px;
+    }  
+    .navbar__logo {   
+        padding-top: 20px;
+        max-width: 150px;
+        font-size: 36px;
+    }
+    .search-bar { 
+        padding-right: 30px;
+    } 
+    .navbar__list:first-child { 
+        margin-left: 15px;
+    }
+    
+    .header__title {
+        text-align: center; 
+    
+    }
+    .price__img img { 
+        max-width: 90%;
+    } 
+    .care__img img { 
+        max-width: 90%;
+    } 
+    .team__img img { 
+        max-width: 95%;
+    } 
+    .posts__img img { 
+        max-width: 98%;
+    } 
+    .posts__row{ 
+        max-width: 290px;
+    } 
+    .lover__title { 
+        max-width: 450px;
+    } 
+    .lover__subtitle { 
+        max-width: 450px;
+    } 
+    .lover__butt { 
+        max-width: 250px;
+    }  
+    
+    .about__img img { 
+        width: 65%;
+    }
+    .veterinar__img img { 
+       max-width: 99.99%;
+}  
+.about__social { 
+    padding-top:55px ;
+} 
+
+
+}
+@media screen and (max-width:991px) { 
+        .container { 
+            width: 720px;
+        }  
+        .header___text { 
+            margin-top: 60px; 
+           max-width: 100%;
+        }  
+        .header__title { 
+            font-size: 48px;
+        } 
+        .header__subtitle { 
+            font-size: 26px;
+        }
+       .header__img img { 
+        max-width: 340px;
+        padding: 0;
+       } 
+       .header__button  {
+           flex-wrap: wrap;
+       } 
+       .header__button button { 
+           padding: 15px;
+       }  
+       .navbar { 
+           height: 110px;
+       }
+       .navbar__logo { 
+           padding-top:24px ;
+       } 
+       .veterinar__text { 
+           max-width: 50%;
+       }  
+       .veterinar__img { 
+         padding-top: 190px;
+       }
+       .veterinar__title { 
+           font-size:  38px;
+       }  
+       .veterinar__subtitle { 
+           font-size: 24px;
+       } 
+       .care__row-title { 
+           font-size: 32px;
+       } 
+       .care__row-subtitle { 
+           font-size:  22px;
+       }
+       .lover__img img { 
+           max-width: 99%;
+       } 
+       .lover__title { 
+           font-size: 38px;
+       } 
+       .veterinar__subtitle { 
+           font-size: 24px;
+       } 
+       .button-price {  
+           padding: 15px 20px;
+           
+       } 
+       .social-network__img:first-child { 
+        margin-left: 30px;
+       } 
+       .about__social { 
+           padding-top: 20px;
+       }  
+       .navbar__home { 
+           max-width: 350px ;
+       }
+    .navbar__list { 
+        font-size: 21px; 
+        margin-left: 15px;
+    }  
+    .navbar__logo {  
+        max-width: 150px;
+        font-size: 28px;
+    }
+    .search-bar { 
+        padding-right: 30px;
+    } 
+    .navbar__list:first-child { 
+        margin-left: 5px;
+    }
+    }
+@media screen and (max-width:767px) { 
+            .container { 
+                width: 540px;
+            }     
+            .navbar__logo { 
+                text-align: center;
+            }  
+            .header__img { 
+                padding: 0; 
+                padding: 85PX 0 0 15px; 
+                
+            }
+            .header__img img { 
+                max-width: 100%; 
+                padding: 0;
+            } 
+            .header__title, 
+            .veterinar__title, 
+            .lover__title
+            { 
+                font-size: 32px;
+            }  
+            .header { 
+                height: 730px;
+            }
+            .header__subtitle, 
+            .veterinar__subtitle,  
+            .lover__subtitle
+             { 
+                font-size: 22px;
+            } 
+            .care__row-subtitle { 
+                font-size: 20px;
+            }
+           .care__title, 
+           .price__title, 
+           .team__title, 
+           .posts__title { 
+               font-size: 62px;
+           } 
+           .care__subtitle, 
+           .price__subtitle, 
+           .team__subtitle, 
+           .posts__subtitle { 
+               font-size: 26px;
+           } 
+           .care__item {  
+               
+               flex-wrap: wrap;
+           }  
+           .care__img {  
+               padding-top: 30px;
+               padding-left: 105px;
+           } 
+           .care__img img { 
+               max-width: 100%;
+           }
+           .care { 
+               height: 2100px;
+           } 
+        .price { 
+            height: 2200px;
+        } 
+        .price__item { 
+            flex-wrap: wrap;
+        } 
+        .price__img  { 
+            padding-top: 30px;
+            padding-left: 105px;
+        } 
+        .price__dog { 
+            padding-left: 75px;
+        } 
+        .price__button { 
+            padding-left: 105px;
+        } 
+        .team { 
+                height: 2200px; 
+
+        } 
+        .team__item { 
+            flex-wrap: wrap;
+        } 
+        .team__img { 
+            padding:30px 0 0 105px ;
+        } 
+        .team__initials, .team__positions { 
+            padding-left: 70px;
+        } 
+        .team__social-network { 
+            padding-left: 145px;
+        } 
+        .about__social:first-child  {
+            padding-left: 35px;
+        } 
+        .posts  {
+            height: 2400px;
+        } 
+        .posts__item {  
+            
+            flex-wrap:wrap; 
+            padding-left: 125px;
+        } 
+        .posts__img { 
+            padding-top: 25px;
+        }  
+        .contact-button { 
+           margin-left: 5px;
+        }
+        .header__service-button {  
+           
+            margin-top: 30px;
+        } 
+        .veterinar__img { 
+            margin-top: 35px;
+        } 
+        .lover__img { 
+            margin-top: 85px;
+        } 
+
+.navbar__home { 
+    display: none;
+} 
+.burger  {
+    display: block; 
+    z-index: 3; 
+    margin-top: 43px; 
+    margin-left: 15px; 
+    position: relative; 
+    min-width: 30px; 
+    height: 20px; 
+    margin-right: 15px;
+    }  
+    .burger span { 
+        position:absolute; 
+        background-color:#fff; 
+        left: 0; 
+        width: 100%; 
+        height: 2px; 
+        top: 9px; 
+
+    } 
+    .burger::after, 
+    .burger::before { 
+        content:""; 
+        background-color:white; 
+        position: absolute; 
+        width: 100%; 
+        left: 0; 
+        height: 2px;
+    } 
+    .burger::after { 
+        bottom: 0;
+    } 
+    .burger::before { 
+        top: 0;
+    }
+
+        } 
+       
+@media screen and (max-width:575px) { 
+                .container { 
+                    width: 100%; 
+                    padding: 0 15px;
+                }    
+                .navbar__search button { 
+                    max-width: 120px;
+                }
+                .search-bar  {
+                    padding: 10px 15px 10px 15px;
+                } 
+            .care__img,.price__img { 
+                padding-left: 25px;
+            }   
+            .price__item { 
+                padding-top: 30px;
+            }
+            .price__img {  
+                
+                padding-left: 40px;
+            } 
+            .price__dog  {
+                padding-left: 0;
+         
+            } 
+            
+            .price__button  {
+                padding-left: 40px;
+            } 
+            .team__img { 
+                padding-left: 30px;
+            } 
+            .team__initials, .team__positions { 
+                padding-left: 0px;
+            } 
+            .team__social-network { 
+                padding-left: 30px;
+            }  
+            .team { 
+                height: 2300px;
+            } 
+            .veterinar__title, 
+            .lover__title { 
+                font-size: 28px;
+            }  
+            .about__title  {
+                font-size: 58px;
+            } 
+            .posts__item  {
+                padding-left: 0px;
+            }
+            .posts {  
+                margin: 0 auto;
+                height: 2500px;
+            } 
+            .about{ 
+                height: 280px;
+            }
+
+            }  
+            @media screen and (max-width:375px) { 
+                .container { 
+                    width: 100%; 
+                    padding: 0 10px;
+                } 
+                .care__img { 
+                    padding-left: 0px;
+                }  
+                .header { 
+                    height: 800px;
+                }
+                .footer__title, 
+                .footer__creator  { 
+                    padding-top: 20px;
+                    line-height: 25px; 
+                    font-size: 20px;
+               
+                }  
+                .veterinar, .lover  {
+                    height: 910px;
+                }
+                .veterinar__item,.lover__item  {
+                    flex-wrap: wrap;
+                }    
+                .veterinar__text , .lover__text 
+                 {  
+                     text-align: center;
+                    max-width: 90%;  
+                    margin: 0 auto;
+                    padding-top:100px ;
+            } 
+            .veterinar__img,.lover__img { 
+                padding-top: 20px;
+            }
+            .posts__item { 
+                margin:0 auto;
+            }
+            .search-bar { 
+                max-width: 90px;
+            } 
+            .search-bar::placeholder { 
+                font-size: 16px;
+            } 
+            .header__img  { 
+                display: none;
+            }
+            .header { 
+                height: 520px;
+            } 
+            .header__service-button  {
+                margin-top: 0px;
+            } 
+            }
+
+
+
+
+
+.navbar .show-menu {  
+        transition: all 0.5s ease; 
+                margin: 50px 0 0 -12px;
+                display: block; 
+                z-index: 5; 
+                position: absolute;  
+                background-color: white;
+                /* background-color: #1d1e1e;  */ 
+                padding: 10px 0 15px 15px; 
+                top: 50px; 
+                width: 40%;   
+                background: rgb(245, 246, 246);
+    box-shadow: #ccc;
+    
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+                
+            }   
+            .show-menu li:first-child { 
+                padding-left: 25px; 
+                padding-top: 25px;
+            } 
+            .show-menu a { 
+                color:black;
+            } 
+
+            .show-menu li {  
+                
+                padding-top: 45px;  
+                display: block;
+                font-size: 22px;
+            }
